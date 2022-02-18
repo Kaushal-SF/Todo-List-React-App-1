@@ -1,0 +1,2 @@
+This is Todo list app creted using the ReactJs.
+In this application I have created class component, functional component and stateless component.This app is just UI part and functionality will add in future.
