@@ -1,5 +1,15 @@
+:root {
+  --bg-todo: #fff;
+}
+
 .App {
-  text-align: center;
-  font-size: 3rem;
-  color: gold;
+  background-color: var(--bg-todo);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 317px;
+  /* height:auto; */
+  /* min-height: 489px; */
+height:489px;
 }

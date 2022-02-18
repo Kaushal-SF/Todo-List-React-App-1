@@ -1,11 +1,13 @@
-import style from './App.module.css';
+import Todo from "./Components/Todo/Todo";
+import style from "./App.module.css";
 
 function App() {
   return (
-    <div className={style.App}>
-      <h1>hello world!!</h1>
-    </div>
+    <>
+      <div className={style.App}>
+        <Todo />
+      </div>
+    </>
   );
 }
-
 export default App;
