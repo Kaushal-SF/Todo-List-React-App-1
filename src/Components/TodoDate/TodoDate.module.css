@@ -4,7 +4,6 @@
   height: 80px;
   display: flex;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 15px auto;
   position: fixed;
 }
@@ -15,7 +14,7 @@
   align-items: center;
 }
 .date {
-  color: #515464;
+  color: #68696d;
   font-weight: 600;
   font-size: 2rem;
   margin-right: 6px;
@@ -32,11 +31,12 @@
   font-weight: 600;
 }
 #mon {
-  color: #9fa0a9;
+  color: #8b8c94;
   text-transform: uppercase;
+  margin-bottom:2px;
 }
 #year {
-  color: #b4b5bc;
+  color: #8b8c94;
 }
 
 .div_day {

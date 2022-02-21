@@ -1,22 +1,17 @@
 import style from "./TodoList.module.css";
+import TodoItems from "../TodoListItems/TodoItems";
+import {TodoItemsInterface} from "../Interface/Interface";
 
-interface TodoItems {
-  id: number;
-  title: string;
-}
 
-const TodoList: React.FC<{ items: TodoItems[] }> = (props) => {
+
+const TodoList: React.FC<{ items: TodoItemsInterface[] }> = (props) => {
   return (
     <>
       <div className={style["hero_todo_list"]}>
         {props.items.map((data) => {
           return (
-              <>
-            
-              <p className={style.para}>{data.title}</p>
-            </>
+             <TodoItems key={data.id} title={data.title}/>
           );
-          console.log(data);
         })}
       </div>
     </>
