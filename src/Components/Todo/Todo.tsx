@@ -1,7 +1,7 @@
 import { Component } from "react";
 import TodoDate from "../TodoDate/TodoDate";
 import TodoList from "../TodoList/TodoList";
-import AddBtn from "../TodoAddBtn/AddBtn";
+import BtnAddItem from "../TodoAddBtn/BtnAddItem";
 import style from "./Todo.module.css";
 
 const todoItems = [
@@ -16,7 +16,7 @@ const todoItems = [
   { id: 9, title: "Go for a walk" },
 ];
 
-// class component 
+// class component
 class Todo extends Component {
   render() {
     return (
@@ -24,8 +24,7 @@ class Todo extends Component {
         <div className={style["hero_main"]}>
           <TodoDate />
           <TodoList items={todoItems} />
-
-          <AddBtn />
+          <BtnAddItem />
         </div>
       </>
     );

@@ -1,5 +1,5 @@
 import style from "./TodoList.module.css";
-import TodoItems from "../TodoListItems/TodoItems";
+import TodoListItems from "../TodoListItems/TodoListItems";
 import {TodoItemsInterface} from "../Interface/Interface";
 
 
@@ -10,7 +10,7 @@ const TodoList: React.FC<{ items: TodoItemsInterface[] }> = (props) => {
       <div className={style["hero_todo_list"]}>
         {props.items.map((data) => {
           return (
-             <TodoItems key={data.id} title={data.title}/>
+             <TodoListItems key={data.id} title={data.title}/>
           );
         })}
       </div>

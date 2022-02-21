@@ -1,13 +1,17 @@
+import { Component } from "react";
 import Todo from "./Components/Todo/Todo";
 import style from "./App.module.css";
 
-function App() {
-  return (
-    <>
-      <div className={style.App}>
-        <Todo />
-      </div>
-    </>
-  );
+class App extends Component {
+  render() {
+    return (
+      <>
+        <div className={style.App}>
+          <Todo />
+        </div>
+      </>
+    );
+  }
 }
+
 export default App;

@@ -2,6 +2,7 @@ import style from "./TodoDate.module.css";
 
 const TodoDate = () => {
   
+  //to get system date,day, month and year:
   const day = new Date().toLocaleDateString("en-us", { weekday: "long" });
   const date = new Date().getDate();
   const month = new Date().toLocaleString("en-us", { month: "short" });

@@ -1,6 +1,6 @@
-import style from "./AddBtn.module.css";
+import style from "./BtnAddItem.module.css";
 
-const AddBtn = () => {
+const BtnAddItem = () => {
   return (
     <>
       <div className={style["hero_add_btn"]}>
@@ -10,4 +10,4 @@ const AddBtn = () => {
   );
 };
 
-export default AddBtn;
+export default BtnAddItem;
